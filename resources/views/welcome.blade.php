@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <h1>Hello Semua</h1>
     <div>
         @livewire('components.atoms.button', ['text' => 'Submit'])
     </div>
