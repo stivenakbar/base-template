@@ -1,0 +1,110 @@
+.file-upload {
+  display: flex;
+  border-radius: 1em;
+  border: 1px dashed black;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding: 1.5em 1em;
+  p {
+    margin: 0;
+  }
+
+  &__select-btn {
+    padding: 0.4em 0.75em;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    border: 1px dashed black;
+    z-index: 99999;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+  }
+
+  &__icon .ki-outline {
+    font-size: 3em;
+  }
+
+  &__guide {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      color: gray;
+    }
+  }
+
+  &__previews {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5em;
+    gap: 0.5em;
+
+    .preview-item {
+      display: flex;
+      padding: 1.5em 1.5em;
+      align-items: center;
+      background-color: white;
+      border : 1px solid lightgray;
+      border-radius: .75em;
+
+      &__proggress{
+        background: lightgray;
+        background-image: linear-gradient(to right, cyan, cyan);
+        width: 0%;
+        height: 100%;
+      }
+
+      &__bar{
+        height: 4px;
+        margin-top: .4em;
+        border-radius: .5em;
+        background: lightgray;
+        width: 100%;
+      }
+
+      &__actions{
+        display: flex;
+        gap: 1em;
+        align-items: center;
+
+        & > * {
+          position: relative;
+          &:not(:last-child)::after{
+            content: '|';
+            display: block;
+            width: min-content;
+            top: 50%;
+            transform: translateY(-50%);
+            color: black;
+            position: absolute;
+            right: calc(1.5em /-2 );
+          }
+        }
+      }
+
+      &__icon {
+        font-size: 2em;
+        margin-right: 0.5em;
+      }
+      &__body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}
+
+[x-cloak] {
+  display: none;
+}

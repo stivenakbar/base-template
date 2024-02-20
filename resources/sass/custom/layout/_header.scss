@@ -1,0 +1,48 @@
+@keyframes beat {
+  0%,50%{
+    opacity: 1;
+  }
+  25%,75%{
+    opacity: 0;
+  }
+}
+
+.notification-button{
+  position: relative;
+  &__badge {
+    font-size: .75em;
+    position: absolute;
+    top: 0;
+    padding: .3em;
+    border-radius: 50%;
+    right : 0;
+    animation: beat 3s infinite;
+    color: white !important;
+    background: rgb(250, 48, 48);
+  }
+}
+
+.notification{
+  display: flex;
+  border-radius: .75em;
+  justify-content: space-between;
+  align-items: center;
+  padding: .75em 1em;
+
+  &--unreaded{
+    cursor: pointer;
+    background: rgb(246, 246, 246);
+    color: rgb(0, 0, 0);
+  }
+
+  &--readed{
+    background: rgb(255, 255, 255);
+    cursor: default;
+    color: rgb(0, 0, 0);
+  }
+
+  &--marking{
+    cursor: not-allowed;
+    opacity: .75;
+  }
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "app_name",
+    "value": "Arkatama",
+    "description": "Nama Aplikasi"
+  },
+  {
+    "name": "app_description",
+    "value": "Arkatama",
+    "description": "Deskripsi Aplikasi"
+  },
+  {
+    "name": "app_author",
+    "value": "Arkatama",
+    "description": "Nama Author"
+  },
+  {
+    "name": "app_author_email",
+    "value": "admin@gmail.com"
+  }
+]

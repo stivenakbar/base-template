@@ -1,0 +1,39 @@
+auth ✔
+database backup ✔
+error log
+RBAC 
+menu builder (based on role) ✔
+system setting ✔
+site setting 
+notification ✔
+sosial login: google ✔
+
+
+atom :
+1. button ✔
+2. input text ✔
+3. input price ✔
+4. input phone number ✔
+5. dropdown ✔
+6. input select2 ✔
+7. input text area ✔
+8. input ckeditor  ✔
+9. input select ✔
+10. dropzone ✔
+
+template :
+1. form ✔
+2. modal form ✔
+3. alert 
+4. sidebar ✔
+5. header ✔
+6. footer ✔
+
+pages : 
+1. menus
+2. system setting
+3. role
+4. permission
+5. backup data
+6. notification
+7. error log

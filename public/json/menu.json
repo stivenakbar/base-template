@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Dashboard",
+    "role": "all",
+    "module": "admin-dashboard",
+    "slug": "dashboard",
+    "icon": "ki-outline ki-element-11 fs-2",
+    "url": "/admin/dashboard",
+    "parent_id": null,
+    "order": "0",
+    "is_active": "1",
+    "childrens": []
+  },
+  {
+    "name": "Menu",
+    "role": "all",
+    "module": "admin-menu",
+    "slug": "menu",
+    "icon": "ki-outline ki-abstract-41 fs-2",
+    "url": "/admin/menu",
+    "parent_id": null,
+    "order": "0",
+    "is_active": "1",
+    "childrens": []
+  },
+  {
+    "name": "Settings",
+    "role": "all",
+    "module": "admin-setting",
+    "slug": "admin-setting",
+    "icon": "ki-outline ki-setting fs-2",
+    "url": "",
+    "parent_id": null,
+    "order": "0",
+    "is_active": "1",
+    "childrens": [
+      {
+        "name": "System Setting",
+        "role": "all",
+        "module": "admin-system-setting",
+        "slug": "admin-system-setting",
+        "icon": "ki-outline ki-wrench fs-2",
+        "url": "/admin/system-setting",
+        "parent_id": 2,
+        "order": "0",
+        "is_active": "1",
+        "childrens": []
+      },
+      {
+        "name": "Site Setting",
+        "role": "all",
+        "module": "admin-site-setting",
+        "slug": "admin-site-setting",
+        "icon": "ki-outline ki-chrome fs-2",
+        "url": "/admin/site-setting",
+        "parent_id": 2,
+        "order": "0",
+        "is_active": "1",
+        "childrens": []
+      }
+    ]
+  },
+  {
+    "name": "Users",
+    "role": "all",
+    "module": "admin-user",
+    "slug": "user",
+    "icon": "ki-outline ki-user-square  fs-2",
+    "url": "",
+    "parent_id": null,
+    "order": "0",
+    "is_active": "1",
+    "childrens": [
+      {
+        "name": "User List",
+        "role": "all",
+        "module": "admin-user-list",
+        "slug": "user-list",
+        "icon": "ki-outline ki-people fs-2",
+        "url": "/admin/user-list",
+        "parent_id": 4,
+        "order": "0",
+        "is_active": "1",
+        "childrens": []
+      },
+      {
+        "name": "Role",
+        "role": "all",
+        "module": "admin-role",
+        "slug": "role",
+        "icon": "ki-outline ki-security-user fs-2",
+        "url": "/admin/role",
+        "parent_id": 4,
+        "order": "1",
+        "is_active": "1",
+        "childrens": []
+      },
+      {
+        "name": "Generate Token",
+        "role": "all",
+        "module": "admin-generate-token",
+        "slug": "generate-token",
+        "icon": "ki-outline ki-chart fs-2",
+        "url": "/admin/generate-token",
+        "parent_id": 4,
+        "order": "1",
+        "is_active": "1",
+        "childrens": []
+      },
+      {
+        "name": "Generate API",
+        "role": "admin",
+        "module": "admin-generate-api",
+        "slug": "generate-api",
+        "icon": "ki-outline ki-note fs-2",
+        "url": "/admin/generate-api",
+        "parent_id": 4,
+        "order": "1",
+        "is_active": "1",
+        "childrens": []
+      }
+    ]
+  },
+  {
+    "name": "Backup Database",
+    "role": "all",
+    "module": "admin-backup",
+    "slug": "backup-database",
+    "icon": "ki-outline ki-cloud fs-2",
+    "url": "/admin/backup",
+    "parent_id": null,
+    "order": 0,
+    "is_active": "1",
+    "childrens": []
+  },
+  {
+    "name": "Log Viewer",
+    "role": "all",
+    "module": "admin-log-viewer",
+    "slug": "log-viewer",
+    "icon": "ki-outline ki-security-user fs-2",
+    "url": "/admin/log-viewer",
+    "parent_id": null,
+    "order": 0,
+    "is_active": "1",
+    "childrens": []
+  },
+  {
+    "name": "Menu Sorting",
+    "role": "all",
+    "module": "admin-menu-sorting",
+    "slug": "menu-sorting",
+    "icon": "ki-outline ki-filter fs-2",
+    "url": "/admin/menu-sorting",
+    "parent_id": null,
+    "order": 0,
+    "is_active": "1",
+    "childrens": []
+  },
+  {
+    "name": "Push Notification",
+    "role": "all",
+    "module": "admin-push-notification",
+    "slug": "admin-push-notification",
+    "icon": "ki-outline ki-notification fs-2",
+    "url": "/admin/push-notification",
+    "parent_id": null,
+    "order": 0,
+    "is_active": "1",
+    "childrens": []
+  }
+]
